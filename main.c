@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
+#include <string.h>
 #include "mots_clefs.h"
 
 flottant carre( flottant x);
