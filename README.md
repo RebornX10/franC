@@ -19,3 +19,32 @@ Chaque Keyword (mot-clé) est remplacé par une traduction française. Pour des 
     - `}` est `voila`
     - `==` prend le nom de `strictement_egal_a`
 Ainsi de suite...
+
+## Compilation et lancement:
+
+```c=
+entier principal() du_coup
+	si (faux) du_coup
+            afficher("C'est faux!\n");
+	voila sinon si (vrai) du_coup
+	    afficher("Du C en francais c'est drole quand meme!\n'");
+	voila;
+
+	entier indice egal  0;
+	pendant_que(indice inferieur_a 10) du_coup
+	    afficher("%d ", indice);
+	    indice++;
+	voila;
+	afficher("\n");
+	retourner 0;
+voila;
+```
+Et la compilation:
+
+```bash=
+$ gcc -o  franC main.c && ./franC
+```
+
+
+## Exemple de code
+Un exemple de code est disponible dans le main.c
