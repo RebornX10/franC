@@ -1,4 +1,3 @@
-#define principal main 
 #define principal main                                                                                  
 #define retourner return                                                                                
 #define du_coup {                                                                                       
