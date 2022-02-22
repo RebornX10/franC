@@ -66,3 +66,6 @@
 #define erire_chaine_caracter fputs
 #define fin_fichier feof
 #define lire_entree_standard scanf
+#define recuperer gets
+#define mettre puts 
+#define lire_caracter scanf
