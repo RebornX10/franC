@@ -22,7 +22,7 @@ Ainsi de suite...
 
 ## Compilation et lancement:
 
-```c=
+```c
 entier principal() du_coup
 	si (faux) du_coup
             afficher("C'est faux!\n");

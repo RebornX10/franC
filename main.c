@@ -12,7 +12,7 @@ entier principal() du_coup
 	voila;
 //
     flottant m, n ;
-    afficher ( "\nEntrer un nombre pour recevoir son carre \n");
+    afficher ( "\nEntrer un nombre pour recevoir son carré \n");
     lire_entree_standard ( "%f", &m ) ;
     n = carre(m);                      
     afficher ( "\nLe carre du nombre %f est %f\n",m,n );
