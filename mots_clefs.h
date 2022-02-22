@@ -34,7 +34,7 @@
 #define modulo_egal %=
 #define casse break
 #define cas case
-#define caratere char
+#define caractere char
 #define constante const
 #define continuer continue
 #define defaut default
@@ -54,3 +54,15 @@
 #define non_signer unsigned
 #define vide void
 #define en_ligne inline
+#define ouvrir_ficher fopen
+#define fermer_ficher fclose
+#define obtenir_caracter_du_ficher getc
+#define mettre_caractere_dans_ficher putc
+#define lire_entier getw
+#define ecrire_entier putw
+#define ecrire_sortie_formatter fprintf
+#define lire_entree_formatter fscanf
+#define lire_chaine_caracter fgets
+#define erire_chaine_caracter fputs
+#define fin_fichier feof
+#define lire_entree_standard scanf
