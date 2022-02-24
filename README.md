@@ -22,6 +22,16 @@ Ainsi de suite...
 
 ## Compilation et lancement:
 
+
+### compilation:
+
+```bash=
+$ gcc -o  franC main.c && ./franC
+```
+
+
+## Exemple de code
+
 ```c
 entier principal() du_coup
 	si (faux) du_coup
@@ -39,12 +49,5 @@ entier principal() du_coup
 	retourner 0;
 voila;
 ```
-Et la compilation:
 
-```bash=
-$ gcc -o  franC main.c && ./franC
-```
-
-
-## Exemple de code
 Un exemple de code est disponible dans le main.c
